@@ -1,0 +1,11 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Pam Fuhrmeister"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "CV"
+      href: CV.html
