@@ -9,3 +9,6 @@ navbar:
       href: publications.html
     - text: "CV"
       href: CV.html
+output:
+  html_document:
+    theme: darkly
