@@ -9,7 +9,7 @@ navbar:
       href: publications.html
 output:
   html_document:
-    theme: paper
-    css: style.css
     includes:
       in_header: header.html
+    theme: paper
+    css: style.css
