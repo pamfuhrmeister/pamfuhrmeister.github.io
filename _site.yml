@@ -11,4 +11,5 @@ output:
   html_document:
     theme: paper
     css: style.css
-favicon: favicon.ico
+    includes:
+      in_header: header.html
