@@ -9,12 +9,9 @@ title: "Publications"
 **Fuhrmeister, P.**, McCoach, D.B., & Myers, E.B. (under review). Individual differences in phonological skills but not categorical perception predict non-native speech sound learning.
 
 
-#### Accepted/in press
-
-**Fuhrmeister, P.**, Madec, S., Lorenz, A., Elbuy, S. & Bürki, A. (accepted). Behavioral and EEG evidence for inter-individual variability in late encoding stages of word production. *Language, Cognition, and Neuroscience.*
-
-
 #### 2022
+
+**Fuhrmeister, P.**, Madec, S., Lorenz, A., Elbuy, S. & Bürki, A. (2022). Behavioral and EEG evidence for inter-individual variability in late encoding stages of word production. *Language, Cognition, and Neuroscience.* https://doi.org/10.1080/23273798.2022.2030483 <a href="Fuhrmeister_et_al_2022.pdf" target="_blank">PDF</a>  <a href="https://osf.io/svjh5/" target="_blank">Data/code</a>
 
 Heffner, C.C., **Fuhrmeister, P.**, Luthra, S., Mechtenberg, H., Saltzman, D., & Myers, E.B. (2022). Reliability for Perceptual Flexibility in Speech: Identification, Learning, and Adaptation. *Brain and Language, 226*(105070). https://doi.org/10.1016/j.bandl.2021.105070
 
