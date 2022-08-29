@@ -18,7 +18,7 @@ Heffner, C.C., **Fuhrmeister, P.**, Luthra, S., Mechtenberg, H., Saltzman, D., &
 
 **Fuhrmeister, P.** & Myers, E. B. (2022). Structural variation in the temporal lobe predicts learning and retention of non-native speech sounds. *Language, Cognition and Neuroscience, 37*(1), 63-79. DOI:10.1080/23273798.2021.1944658 <a href="Fuhrmeister_Myers_2021b.pdf" target="_blank">PDF</a>  <a href="https://osf.io/vbtxd/" target="_blank">Data/code</a>
 
-**Fuhrmeister, P.** & Bürki, A. (2022). Distributional properties of semantic interference in picture naming: Bayesian meta-analyses. Psychonomic Bulletin & Review, 29(2), 635-647. DOI:10.3758/s13423-021-02016-6 <a href="Fuhrmeister_Bürki_2021.pdf" target="_blank">PDF</a>  <a href="https://osf.io/v2fx5/" target="_blank">Data/code</a>
+**Fuhrmeister, P.** & Bürki, A. (2022). Distributional properties of semantic interference in picture naming: Bayesian meta-analyses. *Psychonomic Bulletin & Review, 29*(2), 635-647. DOI:10.3758/s13423-021-02016-6 <a href="Fuhrmeister_Bürki_2021.pdf" target="_blank">PDF</a>  <a href="https://osf.io/v2fx5/" target="_blank">Data/code</a>
 
 #### 2021
 
