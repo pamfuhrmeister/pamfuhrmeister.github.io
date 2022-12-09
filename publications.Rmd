@@ -2,13 +2,13 @@
 title: "Publications"
 ---
 
-#### Submitted/under review
-
-**Fuhrmeister, P.**, Phillips, M., McCoach, D.B., & Myers, E.B. (under review). Relationships between native and non-native speech perception.
+<!-- #### Submitted/under review -->
 
 #### Accepted/in press
 
 **Fuhrmeister, P.**, Elbuy, S., & Bürki, A. (in-principle acceptance: registered report). Are faster participants always faster? Assessing reliability of participants’ mean response speed in picture naming. *Journal of Cognition.*
+
+**Fuhrmeister, P.**, Phillips, M., McCoach, D.B., & Myers, E.B. (accepted). Relationships between native and non-native speech perception. *Journal of Experimental Psychology: Language, Memory, and Cognition.*
 
 #### 2022
 
