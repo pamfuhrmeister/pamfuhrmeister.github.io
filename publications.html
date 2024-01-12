@@ -13,7 +13,7 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -179,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -188,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -274,19 +271,23 @@ $(document).ready(function () {
 
 
 <!-- #### Submitted/under review -->
-<div id="acceptedin-press" class="section level4">
-<h4>Accepted/in press</h4>
-<p>Myers, E.B. &amp; <strong>Fuhrmeister, P.</strong> (in press). The
-neurolinguistics of L2 phonology: A view of phonemic contrast learning.
-In K. Morgan-Short, &amp; J.G. van Hell (Eds.), <em>Routledge Handbook
-of Second Language Acquisition and Neurolinguistics.</em></p>
-<p><strong>Fuhrmeister, P.</strong>, Elbuy, S., &amp; Bürki, A.
-(in-principle acceptance: registered report). Are faster participants
-always faster? Assessing reliability of participants’ mean response
-speed in picture naming. <em>Journal of Cognition.</em></p>
-</div>
 <div id="section" class="section level4">
+<h4>2024</h4>
+<p><strong>Fuhrmeister, P.</strong>, Elbuy, S., &amp; Bürki, A. (2024).
+Are Faster Participants Always Faster? Assessing Reliability of
+Participants’ Mean Response Speed in Picture Naming. <em>Journal of
+Cognition, 7</em>(1): 12, pp. 1–23. <a
+href="https://doi.org/10.5334/joc.337"
+class="uri">https://doi.org/10.5334/joc.337</a>
+<a href="https://osf.io/jqmtv/" target="_blank">Data/code</a></p>
+</div>
+<div id="section-1" class="section level4">
 <h4>2023</h4>
+<p>Myers, E., &amp; <strong>Fuhrmeister, P.</strong> (2023). The
+Neurolinguistics of Second Language Phonology: A View of Phonemic
+Contrast Learning. In K. Morgan-Short, &amp; J.G. van Hell (Eds.),
+<em>The Routledge Handbook of Second Language Acquisition and
+Neurolinguistics</em> (pp. 87-100). Routledge.</p>
 <p><strong>Fuhrmeister, P.</strong>, Phillips, M., McCoach, D.B., &amp;
 Myers, E.B. (2023). Relationships between native and non-native speech
 perception. <em>Journal of Experimental Psychology: Language, Memory,
@@ -294,7 +295,7 @@ and Cognition.</em> <a href="https://doi.org/10.1037/xlm0001213"
 class="uri">https://doi.org/10.1037/xlm0001213</a>
 <a href="https://osf.io/2zg6c/" target="_blank">Data/code</a></p>
 </div>
-<div id="section-1" class="section level4">
+<div id="section-2" class="section level4">
 <h4>2022</h4>
 <p><strong>Fuhrmeister, P.</strong>, Madec, S., Lorenz, A., Elbuy, S.
 &amp; Bürki, A. (2022). Behavioral and EEG evidence for inter-individual
@@ -326,7 +327,7 @@ class="uri">DOI:10.3758/s13423-021-02016-6</a>
 <a href="Fuhrmeister_Bürki_2021.pdf" target="_blank">PDF</a>
 <a href="https://osf.io/v2fx5/" target="_blank">Data/code</a></p>
 </div>
-<div id="section-2" class="section level4">
+<div id="section-3" class="section level4">
 <h4>2021</h4>
 <p><strong>Fuhrmeister, P.</strong> (2021). Examining group differences
 in between-participant variability in non-native speech sound learning.
@@ -343,7 +344,7 @@ class="uri">https://doi.org/10.1016/j.bandl.2021.104919</a>
 <a href="Fuhrmeister_Myers_2021a.pdf" target="_blank">PDF</a>
 <a href="https://osf.io/7hak4/" target="_blank">Data/code</a></p>
 </div>
-<div id="section-3" class="section level4">
+<div id="section-4" class="section level4">
 <h4>2020</h4>
 <p><strong>Fuhrmeister, P.</strong>, Schlemmer, B., &amp; Myers, E.B.
 (2020). Adults show initial advantages over children in learning
@@ -370,7 +371,7 @@ class="uri">https://doi.org/10.3758/s13414-019-01925-y</a>
 <a href="Fuhrmeister_Myers_2020.pdf" target="_blank">PDF</a>
 <a href="https://osf.io/ujm4f/" target="_blank">Data/code</a></p>
 </div>
-<div id="section-4" class="section level4">
+<div id="section-5" class="section level4">
 <h4>2019</h4>
 <p><strong>Fuhrmeister, P.</strong> (2019). Interference in memory
 consolidation of non-native speech sounds. In S. Fuchs, J. Cleland,
@@ -385,7 +386,7 @@ phonetic categories. <em>Brain and Language, 198</em>, 104692. <a
 href="https://doi.org/10.1016/j.bandl.2019.104692"
 class="uri">https://doi.org/10.1016/j.bandl.2019.104692</a></p>
 </div>
-<div id="section-5" class="section level4">
+<div id="section-6" class="section level4">
 <h4>2017</h4>
 <p><strong>Fuhrmeister, P.</strong> &amp; Myers, E. B. (2017).
 Non-native phonetic learning is destabilized by exposure to phonological

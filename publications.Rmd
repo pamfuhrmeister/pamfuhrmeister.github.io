@@ -4,13 +4,12 @@ title: "Publications"
 
 <!-- #### Submitted/under review -->
 
-#### Accepted/in press
-
-Myers, E.B. & **Fuhrmeister, P.** (in press). The neurolinguistics of L2 phonology: A view of phonemic contrast learning. In K. Morgan-Short, & J.G. van Hell (Eds.), *Routledge Handbook of Second Language Acquisition and Neurolinguistics.*
-
-**Fuhrmeister, P.**, Elbuy, S., & Bürki, A. (in-principle acceptance: registered report). Are faster participants always faster? Assessing reliability of participants’ mean response speed in picture naming. *Journal of Cognition.*
+#### 2024
+**Fuhrmeister, P.**, Elbuy, S., & Bürki, A. (2024). Are Faster Participants Always Faster? Assessing Reliability of Participants’ Mean Response Speed in Picture Naming. *Journal of Cognition, 7*(1): 12, pp. 1–23. https://doi.org/10.5334/joc.337 <a href="https://osf.io/jqmtv/" target="_blank">Data/code</a>
 
 #### 2023
+
+Myers, E., & **Fuhrmeister, P.** (2023). The Neurolinguistics of Second Language Phonology: A View of Phonemic Contrast Learning. In K. Morgan-Short, & J.G. van Hell (Eds.), *The Routledge Handbook of Second Language Acquisition and Neurolinguistics* (pp. 87-100). Routledge. 
 
 **Fuhrmeister, P.**, Phillips, M., McCoach, D.B., & Myers, E.B. (2023). Relationships between native and non-native speech perception. *Journal of Experimental Psychology: Language, Memory, and Cognition.* https://doi.org/10.1037/xlm0001213 <a href="https://osf.io/2zg6c/" target="_blank">Data/code</a>
 
