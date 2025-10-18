@@ -1,0 +1,53 @@
+---
+title: "A few of my data projects"
+output: html_document
+---
+
+#### This page is still in progress. There will be more to come!
+
+<!-- <div style="display:flex; flex-wrap:wrap; gap:20px;"> -->
+
+<!-- <a href="projects/analyses_driving_sim.html"> -->
+<!--   <img src="projects/ratioplot-1.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px;"> -->
+<!--   <p>NLP analyses in R and Python</p> -->
+<!-- </a> -->
+
+<!-- <a href="projects/k-means-cluster-analysis.html"> -->
+<!--   <img src="projects/clusters.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px;"> -->
+<!--   <p>k-means cluster analysis</p> -->
+<!-- </a> -->
+
+<!-- <a href="projects/4_parameter_logistic_model.html"> -->
+<!--     <img src="projects/plotall-1.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px; display:block; margin:0 auto;"> -->
+<!--     <p>4-parameter logistic regression model</p> -->
+<!--   </a> -->
+
+
+
+<!-- </div> -->
+
+
+<div style="display:flex; flex-wrap:wrap; gap:20px;">
+
+<div style="width:200px; text-align:center;">
+<a href="projects/analyses_driving_sim.html" target="_blank">
+<img src="projects/ratioplot-1.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px;">
+<p>NLP analyses in R and Python</p>
+</a>
+</div>
+
+<div style="width:200px; text-align:center;">
+<a href="projects/k-means-cluster-analysis.html" target="_blank">
+<img src="projects/clusters.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px;">
+<p>k-means cluster analysis</p>
+</a>
+</div>
+
+<div style="width:200px; text-align:center;">
+<a href="projects/4_parameter_logistic_model.html" target="_blank">
+<img src="projects/plotall-1.png" style="width:200px; height:150px; object-fit:cover; border-radius:5px;">
+<p>4-parameter logistic regression model</p>
+</a>
+</div>
+
+</div>
